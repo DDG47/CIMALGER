@@ -1,0 +1,32 @@
+[
+    {
+        "Name":"peaky blinders (S1)",
+        "UrlVideo":"https://gvid.rest/play/33678671",
+        "UrlImage":"rrs\\covers\\P1.jpg"
+    },
+    {
+        "Name":"Squid game",
+        "UrlVideo":"000",
+        "UrlImage":"rrs\\covers\\SQ1.jpg"
+    },
+    {
+        "Name":"Saw 1",
+        "UrlVideo":"000",
+        "UrlImage":"rrs\\covers\\SW1.jpg"
+    },
+    {
+        "Name":"Breaking Bad",
+        "UrlVideo":"000",
+        "UrlImage":"rrs\\covers\\PB1.jpg"
+    },
+    {
+        "Name":"la casa de papel",
+        "UrlVideo":"000",
+        "UrlImage":"rrs\\covers\\CP1.jpg"
+    },
+    {
+        "Name":"game of thrones",
+        "UrlVideo":"000",
+        "UrlImage":"rrs\\covers\\GT1.jpg"
+    }
+]

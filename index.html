@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sst/style_defalt.css">
+    <link rel="stylesheet" href="sst/home_.css">
+    <meta name="google-signin-client_id" content="649064458142-ob5j2ntjt6jigd8nbpfci0bgh0b0oind.apps.googleusercontent.com">
+    <link rel="icon" href="rrs/ICON.png">
+    <title>CIMALGER</title>
+</head>
+<body onload="news_slot();">
+    <nav>
+        <ul id="opt_acont">
+            <p class="tit_opt_acont">ملف شخصي</p>
+            <li id="but_out">تسجيل خروج</li>
+        </ul>
+        <div class="header_">
+            <img id="ico_list" src="rrs/icon_list.png" onclick="show_hide_list('calc(100% - 180px)');">
+            <img id="logo_" onclick="location.reload();" src="rrs/logo.png" />
+            
+            <ul class="list_" id="menu_d">
+                <li id="tit_list">: قائمة</li>
+                <li>الرئيسية</li>
+                <li>افلام</li>
+                <li>مسلسلات</li>
+                <li>منتوجاتنا</li>
+                <li id="tit_list" onclick="show_hide_list('calc(100%)');">رجوع ></li>
+            </ul>
+
+
+            <div class="g-signin2" data-onsuccess="onSignIn" id="but_lg"></div>
+            <img src="" id="acimg">
+            
+            
+            
+        </div>
+        <div class="content-wlc">
+            <div id="cen_" class="Wlc">
+                <h2><span>CIMALGER</span> مرحبا بك في </h2>
+                <h3>شاهد جميع مسلسلات في اي وقت</h3>
+                <button id="but_" onclick="_move('-100%','0%');">التالي ></button>
+            </div>
+            <div id="cen_1" class="Sig">
+                <h2>للمزيد من ميزات,<span>سجل</span></h2>
+                <h3>تنزيل مسلسلات مجانا</h3>
+                <button id="but_" onclick="_move('0%','100%');">< السابق</button>
+            </div>
+        </div>
+        <div class="content_" >
+            <div class="news_" >
+                <p class="tit_">! جديد</p>
+                <a class="slot_">
+                    <img >
+                    <p>0000</p>
+                </a>
+            </div>
+        </div>
+
+
+    </nav>
+    <script src="jjs/default_.js"></script>
+    <script src="jjs/data_.js" ></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
